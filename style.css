@@ -1,0 +1,105 @@
+@font-family{
+    font-family: Century Gothic;
+	src: url("fonts/GOTHIC.ttf");
+}
+body{
+    background-color: white;
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Science_Olympiad_Logo.svg/1280px-Science_Olympiad_Logo.svg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Centruy Gothic, sans-serif;
+}
+.tabsul{
+    text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+}
+.disp{
+    display: inline-block;
+	background-color: #FF9900;
+}
+.navs{
+    color: black;	
+	padding: 0px;
+	padding-left: 40px !important;
+	padding-right: 40px !important;
+	background-color: #chartreuse;
+	font-size: 35px;
+}
+.navs:hover{
+    background-color: red;
+	color: white;
+}
+div{
+	width:100%;
+}
+h1{
+    font-size: 60px;
+	text-align: center;
+}
+h2{
+    font-size: 45px;
+	text-align: center;
+}
+h3{
+    font-size: 30px;
+	text-align: center;
+}
+p{
+    font-size: 24px;
+}
+li{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+	font-size: 24px;
+	color: black;
+}
+#sta-title{
+    color: black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	background-color: #FFFFFF;
+}
+#sta-title:hover{
+    color: #00FF00;
+	opacity: 0.5;
+	-webkit-transition: opactity 0.5;
+	-moz-transition: opactity 0.5;
+	transition: opactity 0.5;
+}
+figcaption{
+    font-size: 24px;
+}
+#teamup{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 500px;
+}
+#homepage{
+    background-color: white;
+}
+#about{
+    background-color: chartreuse;
+}
+#gallery{
+    background-color: orange;
+}
+#staff{
+    background-color: yellow;
+}
+#rules{
+    background-color: #00ADDF;
+	color: white;
+}
+#misc{
+    background-color: black;
+	color: white;
+}
+#misc a{
+    text-decoration: none;
+	color: white;
+}

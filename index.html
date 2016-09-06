@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stuyence</title>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, height=device-height"> <!--Proper page rendering-->  
+		<link type="text.css" rel="stylesheet" href="style.css" />
+		<script src="https://code.jquery.com/jquery-2.1.4.js"></script><!--jQuery Core-->
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script><!--jQuery UI-->
+		<style>
+		    @import url(style.css)
+		</style>
+		<script type="text/javascript">
+		    $(document).ready(function(){
+			    $("#container").tabs({show: 'fade', hide: 'fade'});
+				$("sta-title").click(function(){
+				    location.reload();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h1 id="sta-title">Stuyvesant Science Olympiad</h1>
+		<div id="container">
+		    <ul class="tabsul">
+			    <li class="disp"><a href="#homepage" class="navs">Homepage</a></li>
+				<li class="disp"><a href="#about" class="navs">About</a></li>
+				<li class="disp"><a href="#gallery" class="navs">Gallery</a></li>
+				<li class="disp"><a href="#staff" class="navs">Staff</a></li>
+			</ul>
+			<div id="homepage">
+			    <h2>Events</h2>
+				<iframe src="https://teamup.com/ks0bf5c31797b4a84a" id="teamup" frameborder="0">
+			</div>
+			<div id="about">
+			    <h2>About</h2>
+			</div>
+			<div id="gallery">
+			    <h2>Gallery</h2>
+			</div>
+			<div id="staff">
+			    <h2>Staff</h2>
+			</div>
+		</div>
+		<br>
+		<br>
+	</body>
+</html>
