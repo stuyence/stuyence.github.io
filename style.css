@@ -15,23 +15,22 @@ body{
 	text-align: center;
 }
 .disp{
-    display: inline-block;
+    /*display: inline-block;*/
 	background-color: #FF9900;
+	text-align: center;
 }
 .navs{
     color: black;	
 	padding: 0px;
-	padding-left: 40px !important;
-	padding-right: 40px !important;
+	/*padding-left: 40px !important;*/
+	/*padding-right: 40px !important;*/
 	background-color: #chartreuse;
 	font-size: 35px;
+	text-align: center;
 }
 .navs:hover{
     background-color: red;
 	color: white;
-}
-div{
-	width:100%;
 }
 h1{
     font-size: 60px;
@@ -56,19 +55,12 @@ a{
 	font-size: 24px;
 	color: black;
 }
-#sta-title{
+#stuy{
     color: black;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
 	background-color: #FFFFFF;
-}
-#sta-title:hover{
-    color: #00FF00;
-	opacity: 0.5;
-	-webkit-transition: opactity 0.5;
-	-moz-transition: opactity 0.5;
-	transition: opactity 0.5;
 }
 figcaption{
     font-size: 24px;
@@ -76,30 +68,18 @@ figcaption{
 #teamup{
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	width: 95%;
 	height: 500px;
 }
 #homepage{
     background-color: white;
 }
 #about{
-    background-color: chartreuse;
+    background-color: #CCFFCC;
 }
 #gallery{
-    background-color: orange;
+    background-color: #FFCC99;
 }
 #staff{
-    background-color: yellow;
-}
-#rules{
-    background-color: #00ADDF;
-	color: white;
-}
-#misc{
-    background-color: black;
-	color: white;
-}
-#misc a{
-    text-decoration: none;
-	color: white;
+    background-color: #FFFFCC;
 }
