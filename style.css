@@ -5,6 +5,7 @@
 body{
     background-color: white;
 	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Science_Olympiad_Logo.svg/1280px-Science_Olympiad_Logo.svg.png");
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	font-family: Centruy Gothic, sans-serif;
@@ -32,7 +33,7 @@ body{
     background-color: red;
 	color: white;
 }
-h1{
+#stuy{
     font-size: 60px;
 	text-align: center;
 }
@@ -55,6 +56,11 @@ a{
 	font-size: 24px;
 	color: black;
 }
+p a{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
 #stuy{
     color: black;
 	margin-left: auto;
@@ -70,6 +76,9 @@ figcaption{
 	margin-right: auto;
 	width: 95%;
 	height: 500px;
+}
+#announcements{
+	background-color: lime;
 }
 #homepage{
     background-color: white;
