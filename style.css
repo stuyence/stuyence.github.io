@@ -80,18 +80,22 @@ figcaption{
 #announcements{
 	background-color: lime;
 	overflow-y: scroll;
+	height: 600px;
 }
 #homepage{
     background-color: white;
 	overflow-y: scroll;
+	height: 600px;
 }
 #about{
     background-color: #CCFFCC;
 	overflow-y: scroll;
+	height: 600px;
 }
 #gallery{
     background-color: #FFCC99;
 	overflow-y: scroll;
+	height: 600px;
 }
 #staff{
     background-color: #FFFFCC;
