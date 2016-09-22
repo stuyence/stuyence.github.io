@@ -58,8 +58,12 @@ a{
 }
 p a{
 	text-decoration: none;
-	background-color: black;
+	background-color: gray;
 	color: white;
+}
+p iframe{
+	width: 100%;
+	height: 550px;
 }
 #stuy{
     color: black;
@@ -78,26 +82,20 @@ figcaption{
 	height: 500px;
 }
 #announcements{
-	background-color: lime;
-	overflow-y: scroll;
-	height: 600px;
+	background-color: #66FFFF;
 }
 #homepage{
     background-color: white;
-	overflow-y: scroll;
-	height: 600px;
 }
 #about{
     background-color: #CCFFCC;
-	overflow-y: scroll;
-	height: 600px;
 }
 #gallery{
     background-color: #FFCC99;
-	overflow-y: scroll;
-	height: 600px;
 }
 #staff{
     background-color: #FFFFCC;
-	overflow-y: scroll;
+}
+#presentation{
+	background-color: #CCCCFF;
 }
